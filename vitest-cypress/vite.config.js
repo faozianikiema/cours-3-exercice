@@ -22,7 +22,7 @@ export default defineConfig({
         outDir: '../public/build/',
         rollupOptions: {
             input: {
-                'main.js': './assets/main.js',
+                'main.js': './src/main.js',
             }
         }
     },
